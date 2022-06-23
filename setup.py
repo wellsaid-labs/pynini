@@ -35,7 +35,6 @@ COMPILE_ARGS = [
 ]
 if sys.platform.startswith("darwin"):
   COMPILE_ARGS.append("-stdlib=libc++")
-  COMPILE_ARGS.append("-mmacosx-version-min=10.7")
 
 
 LIBRARIES = ["fstfarscript", "fstfar", "fstscript", "fst", "m", "dl"]
